@@ -7,6 +7,13 @@ public class User {
     private int user_id;
     private String full_name, email, username, password;
 
+    @Column(name = "role")
+    private String role = "CUSTOMER";
+
+    // Getters and Setters
+    public String getRole() { return role; }
+    public void setRole(String role) { this.role = role; }
+
     // Getters and Setters
     public int getUserId() { return user_id; }
     public String getFullName() { return full_name; }

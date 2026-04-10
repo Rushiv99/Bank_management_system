@@ -165,7 +165,7 @@
 
         <div class="cta-container">
             <a href="register.jsp" class="btn btn-register">Open New Account</a>
-            <a href="login.jsp" class="btn btn-login">Customer Login</a>
+            <a href="login.jsp" class="btn btn-login">Customer/Admin Login</a>
         </div>
     </section>
 
