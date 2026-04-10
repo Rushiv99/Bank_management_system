@@ -255,6 +255,12 @@
         </div>
     </div>
 
+    <div style="text-align: right; margin-top: 20px;">
+      <a href="PrepareDownloadServlet?uid=<%= uidStr %>" class="btn-link" style="background-color: #e67e22;">
+          📥 Download Statement (PDF)
+      </a>
+    </div>
+
 </div>
 
 <footer style="text-align: center; padding: 30px; color: #999; font-size: 0.75rem;">
